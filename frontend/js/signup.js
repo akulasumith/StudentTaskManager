@@ -10,7 +10,7 @@ async function signup(){
         document.getElementById("password").value;
 
     const response = await fetch(
-        "http://127.0.0.1:8000/signup",
+        "https://student-task-manager-rmm3.onrender.com/signup",
         {
             method: "POST",
 

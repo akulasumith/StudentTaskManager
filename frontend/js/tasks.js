@@ -1,4 +1,5 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL =
+    "https://student-task-manager-rmm3.onrender.com";
 
 const taskContainer =
     document.getElementById("taskContainer");

@@ -8,7 +8,7 @@ if(
 }
 
 const API_URL =
-    "http://127.0.0.1:8000";
+    "https://student-task-manager-rmm3.onrender.com";
 
 const completedList =
     document.getElementById(
