@@ -1,9 +1,12 @@
 from pymongo import MongoClient
+from dotenv import load_dotenv
+from pathlib import Path
+import os
 
-MONGO_URL = "mongodb+srv://akulasumith27_db_user:RpXL4SWVNlxMEjpV@cluster0.bp2tvxz.mongodb.net/?appName=Cluster0"
-
-client = MongoClient(MONGO_URL)
-
+load_dotenv(Path(__file__).parent / ".env")
+client = MongoClient(
+    os.getenv("MONGO_URI")
+)
 db = client["StudentTaskManager"]
 
 users_collection = db["users"]
