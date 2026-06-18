@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-page">
+<div class="form-container">
+
+    <h2>Create Account</h2>
+
+    <input id="name"
+        type="text"
+        placeholder="Full Name"
+    >
+
+    <input id="email"
+        type="email"
+        placeholder="Email Address"
+    >
+
+    <input id="password"
+        type="password"
+        placeholder="Password"
+    >
+    <a href="login.html">
+    <button onclick="signup()">
+        Sign Up
+    </button>
+    
+</a>
+
+<p>------OR-----</p>
+<button
+    class="google-btn"
+    onclick="googleSignup()"
+>
+    <i class="fa-brands fa-google"></i>
+    Continue with Google
+</button>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+
+</div>
+</div>
+<script src="js/signup.js"></script>
+</body>
+</html>

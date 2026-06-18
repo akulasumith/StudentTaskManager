@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form-page">
+
+    <div class="form-container">
+
+        <h2>Welcome Back</h2>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Password"
+        >
+
+        <button onclick="login()">
+            Login
+        </button>
+        <p>------OR-----</p>
+        <button
+    class="google-btn"
+    onclick="googleLogin()"
+>
+    <i class="fa-brands fa-google"></i>
+    Continue with Google
+</button>
+
+        <p>
+            Don't have an account?
+            <a href="signup.html">Sign Up</a>
+        </p>
+
+    </div>
+
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>

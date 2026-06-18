@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="dashboard-layout">
+
+    <div class="sidebar">
+
+        <div class="logo">STM</div>
+
+        <ul>
+
+            <li onclick="location.href='dashboard.html'">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+            </li>
+
+            <li onclick="location.href='tasks.html'">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Tasks</span>
+            </li>
+
+            <li onclick="location.href='completed.html'">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Completed</span>
+            </li>
+
+            <li class="active">
+                <i class="fa-solid fa-user"></i>
+                <span>Profile</span>
+            </li>
+
+            <li id="logoutBtn">
+                <i class="fa-solid fa-right-from-bracket"></i>
+                <span>Logout</span>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="main-content">
+
+        <h1>Profile</h1>
+
+        <div class="profile-card">
+
+            <h2 id="username">
+                User
+            </h2>
+
+            <p>
+                "Small progress each day adds up to big results."
+            </p>
+
+            <p>
+                "A goal without a plan is just a wish."
+            </p>
+
+            <p>
+                "Success is the sum of small efforts repeated daily."
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/profile.js"></script>
+<script src="js/logout.js"></script>
+
+</body>
+</html>
